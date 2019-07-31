@@ -1,0 +1,80 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  C:/Users/user/Desktop/work_OrCAD/my_test731/allegro/MY_TEST731.brd          |
+|                                                    Wed Jul 31 11:06:35 2019  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ CON2_JUMPER2_CON2
+ CON3_0_JUMPER3_CON3
+ R_RES400_10K
+ R_RES400_15K
+ R_RES400_1K
+ R_RES400_2.2K
+ R_RES400_20K
+ R_RES400_4.7K
+ R_RES400_5.1K
+ R_RES400_8.2K
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  C:/Users/user/Desktop/work_OrCAD/my_test731/allegro/MY_TEST731.brd          |
+|                                                    Wed Jul 31 11:06:35 2019  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in design                 |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J1                  CON3_0_JUMPER3_CON3                   CON3_0_JUMPER_CON3
+ J2                  CON2_JUMPER2_CON2                     CON2_JUMPER_CON2
+ R1                  R_RES400_10K                          R_REX400_10K
+ R2                  R_RES400_15K                          R_REX400_15K
+ R3                  R_RES400_10K                          R_REX400_10K
+ R4                  R_RES400_20K                          R_REX400_20K
+ R5                  R_RES400_4.7K                         R_REX400_4.7K
+ R6                  R_RES400_4.7K                         R_REX400_4.7K
+ R7                  R_RES400_4.7K                         R_REX400_4.7K
+ R8                  R_RES400_4.7K                         R_REX400_4.7K
+ R9                  R_RES400_1K                           R_REX400_1K
+ R10                 R_RES400_8.2K                         R_REX400_8.2K
+ R11                 R_RES400_10K                          R_REX400_10K
+ R12                 R_RES400_2.2K                         R_REX400_2.2K
+ R13                 R_RES400_5.1K                         R_REX400_5.1K
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:/Users/user/Desktop/work_OrCAD/my_test731/allegro/MY_TEST731.brd          |
+|                                                    Wed Jul 31 11:06:35 2019  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J1.3                           PRIM_FILE      .\pstchip.dat
+ J2.2                           PRIM_FILE      .\pstchip.dat
+ R1.2                           PRIM_FILE      .\pstchip.dat
+ R2.2                           PRIM_FILE      .\pstchip.dat
+ R3.2                           PRIM_FILE      .\pstchip.dat
+ R4.2                           PRIM_FILE      .\pstchip.dat
+ R5.2                           PRIM_FILE      .\pstchip.dat
+ R6.2                           PRIM_FILE      .\pstchip.dat
+ R7.2                           PRIM_FILE      .\pstchip.dat
+ R8.2                           PRIM_FILE      .\pstchip.dat
+ R9.2                           PRIM_FILE      .\pstchip.dat
+ R10.2                          PRIM_FILE      .\pstchip.dat
+ R11.2                          PRIM_FILE      .\pstchip.dat
+ R12.2                          PRIM_FILE      .\pstchip.dat
+ R13.2                          PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|       Comp definitions added:      10                                        |
+|       Components changed    :      15                                        |
+|       Slot property added   :      15                                        |
+|                                                                              |
+|   Total ECO changes reported:      40                                        |
+|------------------------------------------------------------------------------|

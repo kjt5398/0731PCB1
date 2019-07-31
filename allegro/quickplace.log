@@ -1,0 +1,34 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : MY_TEST731.brd                                )
+(    Software Version : 17.2P028                                      )
+(    Date/Time        : Wed Jul 31 11:06:47 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+State: Placing on layer TOP
+
+         Placed symbol:  J1 / CON3_0_JUMPER3_CON3 / JUMPER3 at (82.938 70.473)
+         Placed symbol:  J2 / CON2_JUMPER2_CON2 / JUMPER2 at (90.761 70.473)
+         Placed symbol:  R1 / R_RES400_10K / RES400 at (96.628 70.384)
+         Placed symbol:  R11 / R_RES400_10K / RES400 at (3.057 83.109)
+         Placed symbol:  R3 / R_RES400_10K / RES400 at (6.384 83.109)
+         Placed symbol:  R10 / R_RES400_8.2K / RES400 at (9.711 83.109)
+         Placed symbol:  R12 / R_RES400_2.2K / RES400 at (13.038 83.109)
+         Placed symbol:  R13 / R_RES400_5.1K / RES400 at (16.365 83.109)
+         Placed symbol:  R2 / R_RES400_15K / RES400 at (19.692 83.109)
+         Placed symbol:  R4 / R_RES400_20K / RES400 at (23.019 83.109)
+         Placed symbol:  R5 / R_RES400_4.7K / RES400 at (26.346 83.109)
+         Placed symbol:  R6 / R_RES400_4.7K / RES400 at (29.673 83.109)
+         Placed symbol:  R7 / R_RES400_4.7K / RES400 at (33.000 83.109)
+         Placed symbol:  R8 / R_RES400_4.7K / RES400 at (36.327 83.109)
+         Placed symbol:  R9 / R_RES400_1K / RES400 at (39.654 83.109)
+
+
+Placed 15 of 15 applicable (15 total) symbols.
+
+-----------------------------------------------------------------------
+

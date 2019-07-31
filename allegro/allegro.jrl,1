@@ -1,0 +1,400 @@
+\t (00:00:07) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:07)     Journal start - Wed Jul 31 10:44:53 2019
+\t (00:00:07)         Host=USER-PC User=user Pid=4224 CPUs=4
+\t (00:00:07) CmdLine= c:\users\user\desktop\tools\bin\allegro.exe -mpssession user C:\USERS\USER\DESKTOP\WORK_ORCAD\MY_TEST731\allegro\MY_TEST731.brd
+\t (00:00:07) 
+   (00:00:07) Loading axlcore.cxt 
+\t (00:00:09) Opening existing design...
+\d (00:00:10) Design opened: C:/USERS/USER/DESKTOP/WORK_ORCAD/MY_TEST731/allegro/MY_TEST731.brd
+\i (00:00:11) trapsize 1716
+\i (00:00:11) trapsize 1756
+\i (00:00:11) trapsize 2852
+\i (00:00:12) trapsize 2729
+\i (00:00:12) generaledit 
+\i (00:01:58) board outline 
+   (00:01:58) Loading floor.cxt 
+   (00:01:58) Loading fputil.cxt 
+\i (00:02:00) setwindow form.fpbdoutline
+\i (00:02:00) FORM fpbdoutline cancel  
+\i (00:02:00) setwindow pcb
+\i (00:02:00) generaledit 
+\i (00:02:05) prmed 
+\i (00:02:09) setwindow form.prmedit
+\i (00:02:09) FORM prmedit display_plated_holes YES 
+\i (00:02:10) FORM prmedit display_backdrill_holes YES 
+\i (00:02:10) FORM prmedit display_non_plated_holes YES 
+\i (00:02:11) FORM prmedit display_thermal YES 
+\i (00:02:12) FORM prmedit display_fat_rats YES 
+\i (00:02:12) FORM prmedit waived_drc_on YES 
+\i (00:02:12) FORM prmedit via_labels YES 
+\i (00:02:13) FORM prmedit dp_driver_pins YES 
+\i (00:02:13) FORM prmedit secondary_step_model YES 
+\i (00:02:14) FORM prmedit display_grid YES 
+\i (00:02:16) FORM prmedit display_grid NO 
+\i (00:05:02) setwindow pcb
+\i (00:05:02) define grid 
+\t (00:05:02) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:05:27) setwindow form.grid
+\i (00:05:27) FORM grid non_etch non_etch_x_grids 1 
+\i (00:05:29) FORM grid non_etch non_etch_y_grids 1 
+\i (00:05:29) FORM grid done  
+\i (00:06:50) setwindow pcb
+\i (00:06:50) netin 
+\i (00:06:55) setwindow form.niparams
+\i (00:06:55) FORM niparams other  
+\i (00:06:56) FORM niparams cancel  
+\i (00:06:56) setwindow pcb
+\i (00:06:56) generaledit 
+\i (00:07:27) status 
+\i (00:07:27) generaledit 
+\i (00:07:28) setwindow form.status
+\i (00:07:28) FORM status done  
+\i (00:07:54) setwindow pcb
+\i (00:07:54) pick grid 235.825 284.955
+\t (00:07:54) last pick:  236.000 285.000
+\i (00:08:25) cmgr 
+\i (00:08:27) generaledit 
+\i (00:08:29) setwindow cmgr
+\i (00:08:29) cm select ( frame ( kConsmgr workbook 53:Electrical 66:Net 25:Routing ) )
+\i (00:08:41) cm scope Design "MY_TEST731"
+\i (00:08:41) cm expand ( row ( "Object Type" "XNets/Nets" ) )
+\i (00:09:14) cm startUndoBlock 1
+\i (00:09:14) cm create "Net Class" ( Design "MY_TEST731" ) "POWERNETS"
+\i (00:09:14) cm startUndoBlock 0
+\i (00:09:14) cm clearFlags "Net Class" ( Design "MY_TEST731" ) "POWERNETS" 540160
+\i (00:09:14) cm startUndoBlock 0
+\i (00:09:14) cm expand ( row ( "Object Type" "Net Classes" ) )
+\i (00:09:14) cm expand ( row ( "Object Type" "Net Classes" ) )
+\i (00:09:14) cm setFlags "Net Class" ( Design "MY_TEST731" ) "POWERNETS" 2048
+\i (00:09:14) cm endUndoBlock
+\i (00:09:27) cm startTransaction ( Design "MY_TEST731" ) ( "Net Class" "POWERNETS" ) TS_PERF
+\i (00:09:27) cm add ( Net "+12V" ) to ( "Net Class" "POWERNETS" )
+\i (00:09:27) cm add ( Net "-12V" ) to ( "Net Class" "POWERNETS" )
+\i (00:09:27) cm commitTransaction ( Design "MY_TEST731" ) ( "Net Class" "POWERNETS" ) TS_PERF
+\i (00:09:27) cm endUndoBlock
+\i (00:09:32) cm startTransaction ( Design "MY_TEST731" ) ( "Net Class" "POWERNETS" ) TS_PERF
+\i (00:09:32) cm add ( Net "GND" ) to ( "Net Class" "POWERNETS" )
+\i (00:09:32) cm commitTransaction ( Design "MY_TEST731" ) ( "Net Class" "POWERNETS" ) TS_PERF
+\i (00:09:32) cm endUndoBlock
+\i (00:09:36) cm startTransaction ( Design "MY_TEST731" ) ( "Net Class" "POWERNETS" ) TS_PERF
+\i (00:09:36) cm add ( Net "V+" ) to ( "Net Class" "POWERNETS" )
+\i (00:09:36) cm add ( Net "V-" ) to ( "Net Class" "POWERNETS" )
+\i (00:09:36) cm commitTransaction ( Design "MY_TEST731" ) ( "Net Class" "POWERNETS" ) TS_PERF
+\i (00:09:36) cm endUndoBlock
+\i (00:09:39) cm select ( frame ( kConsmgr workbook 53:Electrical "1:Electrical Constraint Set" 7:Routing ) )
+\i (00:09:47) cm select ( frame ( kConsmgr workbook 55:Physical "56:Physical Constraint Set" "57:All Layers" ) )
+\i (00:09:59) cm expand ( row ( "Physical CSet" "DEFAULT" ) )
+\i (00:10:02) cm collapse ( row ( "Physical CSet" "DEFAULT" ) )
+\i (00:10:39) cm startUndoBlock 1
+\i (00:10:39) cm create "Physical CSet" ( Design "MY_TEST731" ) "POWERWORK"
+\i (00:10:39) cm copy "Physical CSet" ( Design "MY_TEST731" ) ( "Physical CSet" "POWERWORK" ) ( "Physical CSet" "DEFAULT" )
+\i (00:10:40) cm endUndoBlock
+\i (00:11:08) cm expand ( row ( "Physical CSet" "POWERWORK" ) )
+\i (00:11:10) cm collapse ( row ( "Physical CSet" "POWERWORK" ) )
+\i (00:12:13) cm putValue ( "Physical CSet" "POWERWORK" ) MIN_LINE_WIDTH 1 7 ( "Physical CSet" "POWERWORK" )
+\i (00:12:13) cm putValue ( "Physical CSet" "POWERWORK" ) MAX_LINE_WIDTH 1 7 ( "Physical CSet" "POWERWORK" )
+\i (00:12:13) cm putValue ( "Physical CSet" "POWERWORK" ) MIN_NECK_WIDTH 1 7 ( "Physical CSet" "POWERWORK" )
+\i (00:12:13) cm putValue ( "Physical CSet" "POWERWORK" ) MAXIMUM_NECK_LENGTH 1 7 ( "Physical CSet" "POWERWORK" )
+\i (00:12:13) cm putValue ( "Physical CSet" "POWERWORK" ) DIFFP_MIN_SPACE 1 7 ( "Physical CSet" "POWERWORK" )
+\i (00:12:13) cm putValue ( "Physical CSet" "POWERWORK" ) DIFFP_PRIMARY_GAP 1 7 ( "Physical CSet" "POWERWORK" )
+\i (00:12:13) cm putValue ( "Physical CSet" "POWERWORK" ) DIFFP_NECK_GAP 1 7 ( "Physical CSet" "POWERWORK" )
+\i (00:12:13) cm putValue ( "Physical CSet" "POWERWORK" ) DIFFP_COUPLED_PLUS 1 7 ( "Physical CSet" "POWERWORK" )
+\i (00:12:13) cm putValue ( "Physical CSet" "POWERWORK" ) DIFFP_COUPLED_MINUS 1 7 ( "Physical CSet" "POWERWORK" )
+\i (00:12:13) cm putValue ( "Physical CSet" "POWERWORK" ) MIN_BVIA_STAGGER 1 7 ( "Physical CSet" "POWERWORK" )
+\i (00:12:13) cm putValue ( "Physical CSet" "POWERWORK" ) MAX_BVIA_STAGGER 1 7 ( "Physical CSet" "POWERWORK" )
+\i (00:12:14) cm endUndoBlock
+\i (00:12:16) cm select ( frame ( kConsmgr workbook 55:Physical 61:Net "62:All Layers" ) )
+\i (00:12:42) cm putValue ( Net "N00325" ) MIN_LINE_WIDTH 0.5 7 ( Net "N00325" )
+\i (00:12:42) cm endUndoBlock
+\i (00:12:44) cm putValue ( Net "GND" ) MIN_LINE_WIDTH 1 7 ( Net "GND" )
+\i (00:12:44) cm endUndoBlock
+\i (00:12:49) cm putValue ( Net "+12V" ) MIN_LINE_WIDTH 1 7 ( Net "+12V" )
+\i (00:12:49) cm putValue ( Net "-12V" ) MIN_LINE_WIDTH 1 7 ( Net "-12V" )
+\i (00:12:49) cm putValue ( Net "GND" ) MIN_LINE_WIDTH 1 7 ( Net "GND" )
+\i (00:12:49) cm endUndoBlock
+\i (00:13:32) cm putValue ( Net "N00325" ) MIN_LINE_WIDTH 0.5 7 ( Net "N00325" )
+\i (00:13:32) cm putValue ( Net "N00339" ) MIN_LINE_WIDTH 0.5 7 ( Net "N00339" )
+\i (00:13:32) cm putValue ( Net "N00343" ) MIN_LINE_WIDTH 0.5 7 ( Net "N00343" )
+\i (00:13:32) cm putValue ( Net "N00347" ) MIN_LINE_WIDTH 0.5 7 ( Net "N00347" )
+\i (00:13:32) cm putValue ( Net "N00356" ) MIN_LINE_WIDTH 0.5 7 ( Net "N00356" )
+\i (00:13:32) cm putValue ( Net "N00360" ) MIN_LINE_WIDTH 0.5 7 ( Net "N00360" )
+\i (00:13:32) cm putValue ( Net "N00366" ) MIN_LINE_WIDTH 0.5 7 ( Net "N00366" )
+\i (00:13:32) cm putValue ( Net "N00467" ) MIN_LINE_WIDTH 0.5 7 ( Net "N00467" )
+\i (00:13:32) cm putValue ( Net "N01256" ) MIN_LINE_WIDTH 0.5 7 ( Net "N01256" )
+\i (00:13:32) cm putValue ( Net "N02415" ) MIN_LINE_WIDTH 0.5 7 ( Net "N02415" )
+\i (00:13:32) cm putValue ( Net "N02449" ) MIN_LINE_WIDTH 0.5 7 ( Net "N02449" )
+\i (00:13:32) cm putValue ( Net "N02501" ) MIN_LINE_WIDTH 0.5 7 ( Net "N02501" )
+\i (00:13:32) cm putValue ( Net "N003191" ) MIN_LINE_WIDTH 0.5 7 ( Net "N003191" )
+\i (00:13:32) cm putValue ( Net "OUT" ) MIN_LINE_WIDTH 0.5 7 ( Net "OUT" )
+\i (00:13:32) cm putValue ( Net "SIG" ) MIN_LINE_WIDTH 0.5 7 ( Net "SIG" )
+\i (00:13:32) cm putValue ( Net "V+" ) MIN_LINE_WIDTH 0.5 7 ( Net "V+" )
+\i (00:13:32) cm putValue ( Net "V-" ) MIN_LINE_WIDTH 0.5 7 ( Net "V-" )
+\i (00:13:32) cm endUndoBlock
+\i (00:13:55) cm close ( frame ( kConsmgr workbook 53:Electrical 66:Net 25:Routing ) )
+\i (00:13:55) cm close ( frame ( kConsmgr workbook 53:Electrical "1:Electrical Constraint Set" 7:Routing ) )
+\i (00:13:55) cm close ( frame ( kConsmgr workbook 55:Physical "56:Physical Constraint Set" "57:All Layers" ) )
+\i (00:13:55) cm close ( frame ( kConsmgr workbook 55:Physical 61:Net "62:All Layers" ) )
+\i (00:13:55) cm exit
+\i (00:13:59) setwindow pcb
+\i (00:13:59) pick grid 395.225 275.129
+\t (00:13:59) last pick:  395.000 275.000
+\i (00:14:13) board outline 
+   (00:14:13) Loading consmgr.cxt 
+   (00:14:13) Loading acns_formula.cxt 
+\i (00:14:16) setwindow form.fpbdoutline
+\i (00:14:16) FORM fpbdoutline fpbodrawpoly YES 
+\i (00:14:17) FORM fpbdoutline fpboplacerect YES 
+\i (00:14:44) FORM fpbdoutline fpboplacehgt 70 
+\i (00:14:54) FORM fpbdoutline fpboplacewdt 100 
+\i (00:15:24) FORM fpbdoutline fpboclearance 1MM 
+\i (00:15:30) setwindow pcb
+\i (00:15:30) pick 0,0 
+\t (00:15:30) last pick:  0.000 0.000
+\i (00:15:31) roam start
+\i (00:15:31) roam end
+\i (00:15:33) roam start
+\i (00:15:33) roam end
+\i (00:15:37) setwindow form.fpbdoutline
+\i (00:15:37) FORM fpbdoutline apply  
+\i (00:15:38) fillin confirm
+\i (00:15:39) FORM fpbdoutline done  
+\i (00:15:39) setwindow pcb
+\i (00:15:39) generaledit 
+\i (00:15:39) roam start
+\i (00:15:40) roam end
+\i (00:15:47) prmed 
+\i (00:15:50) setwindow form.prmedit
+\i (00:15:50) FORM prmedit design  
+\i (00:15:54) FORM prmedit x -50.000 
+\i (00:15:57) FORM prmedit y -50.000 
+\i (00:15:58) FORM prmedit size A4 
+\i (00:16:02) FORM prmedit lock_direction 45 
+\i (00:16:07) FORM prmedit apply  
+\i (00:16:07) setwindow pcb
+\i (00:16:07) trapsize 1327
+\i (00:16:08) setwindow form.prmedit
+\i (00:16:08) FORM prmedit done  
+\i (00:16:08) setwindow pcb
+\i (00:16:08) generaledit 
+\i (00:16:10) zoom in 1 
+\i (00:16:10) setwindow pcb
+\i (00:16:10) zoom in -17.345 12.124
+\i (00:16:10) trapsize 664
+\i (00:16:10) zoom in 1 
+\i (00:16:10) setwindow pcb
+\i (00:16:10) zoom in -17.345 12.124
+\i (00:16:10) trapsize 332
+\i (00:16:11) zoom out 1 
+\i (00:16:11) setwindow pcb
+\i (00:16:11) zoom out 27.324 13.518
+\i (00:16:11) trapsize 664
+\i (00:16:14) zoom out 1 
+\i (00:16:14) setwindow pcb
+\i (00:16:14) zoom out 43.717 65.819
+\i (00:16:14) trapsize 1327
+\i (00:16:15) roam start
+\i (00:16:15) roam end
+\i (00:16:16) zoom in 1 
+\i (00:16:16) setwindow pcb
+\i (00:16:16) zoom in 89.646 42.124
+\i (00:16:16) trapsize 664
+\i (00:16:17) roam start
+\i (00:16:17) roam x -16
+\i (00:16:17) roam x -192
+\i (00:16:17) roam x -176
+\i (00:16:17) roam x -96
+\i (00:16:17) roam x -32
+\i (00:16:17) roam x 80
+\i (00:16:17) roam y 16
+\i (00:16:17) roam x 32
+\i (00:16:17) roam y 32
+\i (00:16:17) roam x 32
+\i (00:16:17) roam y 80
+\i (00:16:17) roam x 16
+\i (00:16:17) roam y 48
+\i (00:16:17) roam y -16
+\i (00:16:17) roam y -48
+\i (00:16:18) roam end
+\i (00:16:46) status 
+\i (00:16:46) generaledit 
+\i (00:16:47) setwindow form.status
+\i (00:16:47) FORM status done  
+\i (00:16:49) setwindow pcb
+\i (00:16:49) done 
+\i (00:16:49) place manual 
+\i (00:16:50) FORM plc_manual placement_list 
+\i (00:16:50) FORM plc_manual categories Components by refdes 
+\i (00:16:50) trapsize 664
+\i (00:16:52) setwindow form.plc_manual
+\i (00:16:52) FORM plc_manual categories Mechanical symbols 
+\i (00:16:52) FORM plc_manual tree  'Mechanical symbols' 
+\i (00:16:53) FORM plc_manual advanced_settings  
+\i (00:16:54) FORM plc_manual library YES 
+\i (00:16:56) FORM plc_manual library NO 
+\i (00:16:56) FORM plc_manual placement_list  
+\i (00:16:57) FORM plc_manual advanced_settings  
+\i (00:16:57) FORM plc_manual library YES 
+\i (00:16:58) FORM plc_manual placement_list  
+\i (00:17:01) FORM plc_manual tree 'MULTISEL YES' MTG125 'Mechanical symbols' 
+\w (00:17:01) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:17:01) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:17:01) FORM plc_manual tree  MTG125 'Mechanical symbols' 
+\i (00:17:13) setwindow pcb
+\i (00:17:13) pick 5,5 
+\t (00:17:13) last pick:  5.000 5.000
+\i (00:17:16) setwindow form.plc_manual
+\i (00:17:16) FORM plc_manual tree 'MULTISEL YES' MTG125 'Mechanical symbols' 
+\i (00:17:24) setwindow pcb
+\i (00:17:24) pick 5,65 
+\t (00:17:24) last pick:  5.000 65.000
+\i (00:17:27) setwindow form.plc_manual
+\i (00:17:27) FORM plc_manual tree 'MULTISEL YES' MTG125 'Mechanical symbols' 
+\i (00:17:35) setwindow pcb
+\i (00:17:35) pick 95,5 
+\t (00:17:35) last pick:  95.000 5.000
+\i (00:17:39) setwindow form.plc_manual
+\i (00:17:39) FORM plc_manual tree 'MULTISEL YES' MTG125 'Mechanical symbols' 
+\i (00:17:47) setwindow pcb
+\i (00:17:47) pick 95,65 
+\t (00:17:47) last pick:  95.000 65.000
+\i (00:17:49) setwindow form.plc_manual
+\i (00:17:49) FORM plc_manual done  
+\i (00:17:49) setwindow pcb
+\i (00:17:49) generaledit 
+\i (00:17:51) zoom out 1 
+\i (00:17:51) setwindow pcb
+\i (00:17:51) zoom out 97.743 45.841
+\i (00:17:51) trapsize 1327
+\i (00:17:52) roam start
+\i (00:17:52) roam end
+\i (00:17:52) zoom in 1 
+\i (00:17:52) setwindow pcb
+\i (00:17:52) zoom in 5.221 49.026
+\i (00:17:52) trapsize 664
+\i (00:17:54) zoom out 1 
+\i (00:17:54) setwindow pcb
+\i (00:17:54) zoom out 31.637 82.743
+\i (00:17:54) trapsize 1327
+\i (00:17:55) save 
+\i (00:17:56) fillin yes 
+\i (00:17:56) generaledit 
+\i (00:17:59) save_as 
+\i (00:18:20) fillin "menu_cancel"
+\i (00:18:20) generaledit 
+\i (00:18:41) quickplace 
+\i (00:18:44) setwindow form.quickplc
+\i (00:18:44) FORM quickplc place  
+\w (00:18:44) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:18:44) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:18:44) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:18:44) Component(s) could not be placed.  See logfile for errors.
+\i (00:18:47) FORM quickplc done  
+\i (00:18:47) setwindow pcb
+\i (00:18:47) generaledit 
+\i (00:18:48) zoom in 1 
+\i (00:18:48) setwindow pcb
+\i (00:18:48) zoom in 10.531 71.327
+\i (00:18:48) trapsize 664
+\i (00:18:49) zoom in 1 
+\i (00:18:49) setwindow pcb
+\i (00:18:49) zoom in 31.107 85.133
+\i (00:18:49) trapsize 332
+\i (00:18:49) zoom in 1 
+\i (00:18:49) setwindow pcb
+\i (00:18:49) zoom in 31.107 85.134
+\i (00:18:49) trapsize 166
+\i (00:18:50) zoom out 1 
+\i (00:18:50) setwindow pcb
+\i (00:18:50) zoom out 34.326 81.816
+\i (00:18:50) trapsize 332
+\i (00:18:51) zoom out 1 
+\i (00:18:51) setwindow pcb
+\i (00:18:51) zoom out 34.393 85.864
+\i (00:18:51) trapsize 664
+\i (00:18:57) done 
+\i (00:18:57) place manual 
+\i (00:18:57) FORM plc_manual placement_list 
+\i (00:18:57) FORM plc_manual categories Components by refdes 
+\i (00:18:57) setwindow form.plc_manual
+\i (00:18:57) FORM plc_manual categories Components by refdes 
+\i (00:18:57) setwindow pcb
+\i (00:18:57) trapsize 664
+\i (00:18:59) setwindow form.plc_manual
+\i (00:18:59) FORM plc_manual tree 'MULTISEL YES' J1 'Components by refdes' 
+\e (00:18:59) Cannot load symbol 'JUMPER'
+\i (00:18:59) FORM plc_manual tree  J1 'Components by refdes' 
+\i (00:19:02) FORM plc_manual tree 'MULTISEL YES' J2 'Components by refdes' 
+\i (00:19:02) FORM plc_manual tree  J2 'Components by refdes' 
+\i (00:19:03) FORM plc_manual tree 'MULTISEL NO' J2 'Components by refdes' 
+\i (00:19:03) FORM plc_manual tree 'MULTISEL NO' J1 'Components by refdes' 
+\i (00:19:03) FORM plc_manual tree  J1 'Components by refdes' 
+\i (00:19:19) setwindow pcb
+\i (00:19:19) Net N00360 
+\t (00:19:19) Nets are not selectable at this time.
+\i (00:19:19) Net N01256 
+\t (00:19:19) Nets are not selectable at this time.
+\i (00:19:19) Net N00366 
+\t (00:19:19) Nets are not selectable at this time.
+\i (00:19:19) Net Sig 
+\t (00:19:19) Nets are not selectable at this time.
+\i (00:19:19) Net N02449 
+\t (00:19:19) Nets are not selectable at this time.
+\i (00:19:19) refdes R5 
+\e (00:19:19) Cannot load symbol 'REX400'
+\i (00:19:19) refdes R9 
+\i (00:19:19) Net N00356 
+\t (00:19:19) Nets are not selectable at this time.
+\i (00:19:19) Net N00325 
+\t (00:19:19) Nets are not selectable at this time.
+\i (00:19:19) Net Out 
+\t (00:19:19) Nets are not selectable at this time.
+\i (00:19:19) Net N00343 
+\t (00:19:19) Nets are not selectable at this time.
+\i (00:19:19) refdes U2 
+\i (00:19:19) trapsize 144
+\t (00:19:19) Moving U2 / LF356_DIP8_3_LF356 / DIP8_3.
+\t (00:19:19) last pick:  23.199 78.093
+\i (00:19:19) Net Gnd 
+\t (00:19:19) Nets are not selectable at this time.
+\i (00:19:19) refdes R10 
+\i (00:19:19) refdes Vr2 
+\i (00:19:19) refdes R8 
+\i (00:19:19) refdes C3 
+\i (00:19:19) refdes Vr1 
+\i (00:19:19) refdes J1 
+\i (00:19:19) Net -12V 
+\t (00:19:19) Nets are not selectable at this time.
+\i (00:19:19) Net N02415 
+\t (00:19:19) Nets are not selectable at this time.
+\i (00:19:19) Net N02501 
+\t (00:19:19) Nets are not selectable at this time.
+\i (00:19:19) refdes Vr3 
+\i (00:19:19) refdes R11 
+\i (00:19:19) Net N00339 
+\t (00:19:19) Nets are not selectable at this time.
+\i (00:19:19) refdes U3 
+\i (00:19:19) refdes R6 
+\i (00:19:19) refdes R2 
+\i (00:19:19) Net +12V 
+\t (00:19:19) Nets are not selectable at this time.
+\i (00:19:19) Net N00467 
+\t (00:19:19) Nets are not selectable at this time.
+\i (00:19:19) refdes R12 
+\i (00:19:19) refdes R3 
+\i (00:19:19) refdes C4 
+\i (00:19:19) refdes U4 
+\i (00:19:19) refdes U1 
+\i (00:19:19) refdes R4 
+\i (00:19:19) refdes J2 
+\i (00:19:19) refdes C1 
+\i (00:19:19) refdes R7 
+\i (00:19:19) refdes C2 
+\i (00:19:19) Net N00347 
+\t (00:19:19) Nets are not selectable at this time.
+\i (00:19:19) refdes R1 
+\i (00:19:19) refdes R13 
+\i (00:19:19) xname_flush 
+\i (00:21:15) exit 
+\e (00:21:15) Do you want to save the changes you made to C:/USERS/USER/DESKTOP/WORK_ORCAD/MY_TEST731/allegro/MY_TEST731.brd?
+\i (00:21:17) fillin yes 
+\t (00:21:18)     Journal end - Wed Jul 31 11:06:05 2019

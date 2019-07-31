@@ -1,0 +1,79 @@
+Date and Time : 07/31/19 10:44:10
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+WARNING(ORCAP-1831): Unconnected pin U2,OFFSET1 
+                    SCHEMATIC1, PAGE1  (6.30, 1.20) 
+WARNING(ORCAP-1831): Unconnected pin U2,OFFSET2 
+                    SCHEMATIC1, PAGE1  (6.30, 2.20) 
+WARNING(ORCAP-1831): Unconnected pin U4,OFFSET1 
+                    SCHEMATIC1, PAGE1  (4.50, 3.80) 
+WARNING(ORCAP-1831): Unconnected pin U4,OFFSET2 
+                    SCHEMATIC1, PAGE1  (4.50, 4.80) 
+WARNING(ORCAP-1831): Unconnected pin U3,OFFSET1 
+                    SCHEMATIC1, PAGE1  (2.10, 3.90) 
+WARNING(ORCAP-1831): Unconnected pin U3,OFFSET2 
+                    SCHEMATIC1, PAGE1  (2.10, 4.90) 
+WARNING(ORCAP-1831): Unconnected pin U1,OFFSET1 
+                    SCHEMATIC1, PAGE1  (3.30, 1.30) 
+WARNING(ORCAP-1831): Unconnected pin U1,OFFSET2 
+                    SCHEMATIC1, PAGE1  (3.30, 2.30) 
+
+Checking For Single Node Nets
+WARNING(ORCAP-1600): Net has fewer than two connections V+ 
+                    SCHEMATIC1, PAGE1  (6.20, 1.20) 
+WARNING(ORCAP-1600): Net has fewer than two connections V- 
+                    SCHEMATIC1, PAGE1  (6.20, 2.20) 
+
+Checking For Unconnected Bus Nets
+
+Checking Physical Rules 
+
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+--------------------------------------------------
+Checking Entire Design: MY_TEST731 
+--------------------------------------------------
+
+Checking Power Pin Visibility  
+
+Checking Normal Convert View Sync  
+INFO(ORCAP-36105): Checking Missing Pin Numbers  
+
+Checking Device with Zero pins  
+INFO(ORCAP-36101): Checking Missing PCB Footprint Property  
+
+Checking Name Property for Hierarchical Instances  
+
+INFO(ORCAP-2211): Check High Speed Properties Syntax
+
+INFO(ORCAP-2212): Check Power Ground Mismatch
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U3,V+  V+  +12V
+                    SCHEMATIC1, PAGE1  (2.00, 3.90) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U4,V+  V+  +12V
+                    SCHEMATIC1, PAGE1  (4.40, 3.80) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U1,V+  V+  +12V
+                    SCHEMATIC1, PAGE1  (3.20, 1.30) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U3,V-  V-  -12V
+                    SCHEMATIC1, PAGE1  (2.00, 4.90) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U4,V-  V-  -12V
+                    SCHEMATIC1, PAGE1  (4.40, 4.80) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U1,V-  V-  -12V
+                    SCHEMATIC1, PAGE1  (3.20, 2.30) 
+
+Reporting Unused Refdes in multiple part packages
+Part	                       Quantity	                       Reference
+-----------------------------------------------------------------------------------------
